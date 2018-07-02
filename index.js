@@ -18,8 +18,8 @@ function currentLine (katzDeliLine) {
   } else {
     var i = 0;
     while (i<katzDeliLine.length){
-    katzDeliLine[i] = ` ${i+1}. ${katzDeliLine[i]}`;
-    i++;
+      katzDeliLine[i] = ` ${i+1}. ${katzDeliLine[i]}`;
+      i++;
 }
     return `The line is currently:${katzDeliLine}`; 
   }
